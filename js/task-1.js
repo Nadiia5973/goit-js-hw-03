@@ -1,4 +1,5 @@
 function slugify(title) {
+    let slug;
     let array = title.toLowerCase();
     array = array.split(" ");
     slug = array.join("-");
